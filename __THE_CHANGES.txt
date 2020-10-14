@@ -1,0 +1,2 @@
+* Fixed in/outputs: bla_bla -> bla-bla
+* Added search with wildcards
