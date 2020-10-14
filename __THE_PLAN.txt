@@ -1,0 +1,22 @@
+GOALS:
+* Modernize the project (base on actions/artifact-upload)
+* Aims to fix the following issues:
+  * [MAJOR] 47/28/11 - use wildcards in asset_path / upload from multiple assets / dynamic Filenames
+  * [MAJOR] 50 - Fix doc
+  * [MINOR] 13/PR 22 - Overwrite release asset
+  * [MINOR] 10 - Upload (directly) from artifact
+
+CHANGES:
+* Fixed in/outputs: bla_bla -> bla-bla 
+  * this format is used in e.g. setup-node, upload-artifact and like everywhere else in actions
+* Added search with wildcards
+
+TODO:
+* Implement release functionally (like artifacts did in https://github.com/actions/toolkit/tree/main/packages/artifact)
+* Consider PR 22
+* Add tests
+* Create dist/... stuff
+* Deploy standalone? - just to really test all that stuff
+* Recreate/Restore workflows
+* Update Docs (Readme and stuff)
+* Remove this :D
