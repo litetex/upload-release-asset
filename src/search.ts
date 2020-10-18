@@ -1,13 +1,13 @@
 /*
  * Forked from actions/upload-artifact
- * This should maybe consolidated into a seperate project / dependency
+ * This should be consolidated into a seperate project / dependency
  */
 
 import * as glob from '@actions/glob'
 import * as path from 'path'
 import {debug, info} from '@actions/core'
 import {stat} from 'fs'
-import {dirname} from 'path'
+import {dirname, format} from 'path'
 import {promisify} from 'util'
 const stats = promisify(stat)
 

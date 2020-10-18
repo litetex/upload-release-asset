@@ -2,6 +2,8 @@ GOALS:
 * Modernize the project (base on actions/artifact-upload)
 * Aims to fix the following issues:
   * [MAJOR] 47/28/11 - use wildcards in asset_path / upload from multiple assets / dynamic Filenames
+    * [MINOR] - Add a switch to either pack all found files into a zip with zip-name='asset-name' (default) or upload each file as a asset
+    * [MINOR] - Automatically detect MIME types
   * [MAJOR] 50 - Fix doc
   * [MINOR] 13/PR 22 - Overwrite release asset (requires reading release-asset-client)
   * [MINOR] 10 - Upload (directly) from artifact
